@@ -1,0 +1,986 @@
+[
+
+            'INFO_DESEMBOLSO' => [
+                'RFHA' => "611516840-II", //NÚMERO DESEMBOLSO
+                "DBLFZ" => "20180608", // FECHA INICIO DESEMBOLSO
+                "DELFZ" => "20300608", // FECHA FIN DESEMBOLSO
+                "TPINTREF1" => "IBR 3M", //TASA REFERENCIA
+                "TPINTREF2" => '49.500.000', //SPREAD
+                "BBLFZ" => 83228867.32, //MONTO DEL DESEMBOLSO
+            ],
+
+            'FLUJO_DESEMBOLSO' => [
+                [
+                    'ID' => 1,
+                    'DFAELL' => "20180608", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1105", //CONCEPTO
+                    "BZBETR" => '83228867.32', //DEPENDIENDO DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20180608",
+                    "INT_VALUE" => "40.900.000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 2,
+                    'DFAELL' => "20180908", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '1880972.40', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20180908",
+                    "INT_VALUE" => "41.270.000", //"40.680.000", // //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 3,
+                    'DFAELL' => "20181208", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '1888671.07', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20181208",
+                    "INT_VALUE" => "41.550.000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 4,
+                    'DFAELL' => "20190308", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '1894497.09', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20190308",
+                    "INT_VALUE" => "41.380.000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 5,
+                    'DFAELL' => "20190608", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '1890959.87', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20190608",
+                    "INT_VALUE" => "41.270.000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 6,
+                    'DFAELL' => "20190908", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '1888671.07', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20190908",
+                    "INT_VALUE" => "41.350.000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 7,
+                    'DFAELL' => "20191208", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '1890335.65', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20191208",
+                    "INT_VALUE" => "41.410.000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 8,
+                    'DFAELL' => "20200308", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '1891584.08', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "",
+                    "INT_VALUE" => "", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 9,
+                    'DFAELL' => "20200908", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '0.01', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20200908",
+                    "INT_VALUE" => "18.750.000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 10,
+                    'DFAELL' => "20201208", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1210", //CONCEPTO
+                    "BZBETR" => '474652.67', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20201208",
+                    "INT_VALUE" => "17.080.000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 11,
+                    'DFAELL' => "20201208", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '0.00', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20201208",
+                    "INT_VALUE" => "17.080.000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 12,
+                    'DFAELL' => "20201208", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '0.00', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20201208",
+                    "INT_VALUE" => "17.080.000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 13, //SFHAZBA
+                    'DFAELL' => "20201208", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20201208",
+                    "INT_VALUE" => "17.080.000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 14,
+                    'DFAELL' => "20201208", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '1420092.55', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20201208",
+                    "INT_VALUE" => "17.080.000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 15,
+                    'DFAELL' => "20210308", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1210", //CONCEPTO
+                    "BZBETR" => '474652.67', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20210308",
+                    "INT_VALUE" => "17.020.000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 16,
+                    'DFAELL' => "20210308", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20210308",
+                    "INT_VALUE" => "17.020.000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 17,
+                    'DFAELL' => "20210308", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '1349832.71', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20210308",
+                    "INT_VALUE" => "17.020.000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 18,
+                    'DFAELL' => "20210608", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1210", //CONCEPTO
+                    "BZBETR" => '335254.20', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20210608",
+                    "INT_VALUE" => "18.120.000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 19,
+                    'DFAELL' => "20210608", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20210608",
+                    "INT_VALUE" => "18.120.000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 20,
+                    'DFAELL' => "20210608", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '1313116.78', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20210608",
+                    "INT_VALUE" => "18.120.000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 21,
+                    'DFAELL' => "20210908", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1210", //CONCEPTO
+                    "BZBETR" => '428186.51', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20210908",
+                    "INT_VALUE" => "21.540.000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 22,
+                    'DFAELL' => "20210908", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20210908",
+                    "INT_VALUE" => "21.540.000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 23,
+                    'DFAELL' => "20210908", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '1298735.60', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20210908",
+                    "INT_VALUE" => "21.540.000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 24,
+                    'DFAELL' => "20211208", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1210", //CONCEPTO
+                    "BZBETR" => '428186.51', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20211208",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 25,
+                    'DFAELL' => "20211208", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20211208",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 26,
+                    'DFAELL' => "20211208", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '1324889.62', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20211208",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 27,
+                    'DFAELL' => "20220308", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1210", //CONCEPTO
+                    "BZBETR" => '428186.51', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20220308",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 28,
+                    'DFAELL' => "20220308", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20220308",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 29,
+                    'DFAELL' => "20220308", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '1490170.19', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20220308",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 30,
+                    'DFAELL' => "20220608", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1210", //CONCEPTO
+                    "BZBETR" => '428186.51', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20220608",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 31,
+                    'DFAELL' => "20220608", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20220608",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 32,
+                    'DFAELL' => "20220608", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '1542118.87', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20220608",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 33,
+                    'DFAELL' => "20220908", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1210", //CONCEPTO
+                    "BZBETR" => '428186.51', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20220908",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 34,
+                    'DFAELL' => "20220908", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20220908",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 35,
+                    'DFAELL' => "20220908", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '1495388.00', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20220908",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 36,
+                    'DFAELL' => "20221208", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20221208",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 37,
+                    'DFAELL' => "20221208", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '1448657.12', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20221208",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 38,
+                    'DFAELL' => "20230308", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20230308",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 39,
+                    'DFAELL' => "20230308", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '1454264.40', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20230308",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 40,
+                    'DFAELL' => "20230608", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20230608",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 41,
+                    'DFAELL' => "20230608", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '1405788.92', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20230608",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 42,
+                    'DFAELL' => "20230908", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20230908",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 43,
+                    'DFAELL' => "20230908", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '1357313.44', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20230908",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 44,
+                    'DFAELL' => "20231208", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20231208",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 45,
+                    'DFAELL' => "20231208", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '1308837.96', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20231208",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 46,
+                    'DFAELL' => "20240308", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20240308",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 47,
+                    'DFAELL' => "20240308", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '1260362.48', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20240308",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 48,
+                    'DFAELL' => "20240608", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20240608",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 49,
+                    'DFAELL' => "20240608", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '1211887.00', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20240608",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 50,
+                    'DFAELL' => "20240908", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20240908",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 51,
+                    'DFAELL' => "20240908", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '1163411.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20240908",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 52,
+                    'DFAELL' => "20241208", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20241208",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 53,
+                    'DFAELL' => "20241208", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '1114936.04', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20241208",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 54,
+                    'DFAELL' => "20250308", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20250308",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 55,
+                    'DFAELL' => "20250308", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '1066460.56', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20250308",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 56,
+                    'DFAELL' => "20250608", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20250608",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 57,
+                    'DFAELL' => "20250608", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '1017985.08', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20250608",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 58,
+                    'DFAELL' => "20250908", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20250908",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 59,
+                    'DFAELL' => "20250908", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '969509.60', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20250908",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 60,
+                    'DFAELL' => "20251208", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20251208",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 61,
+                    'DFAELL' => "20251208", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '921034.12', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20251208",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 62,
+                    'DFAELL' => "20260308", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20260308",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 63,
+                    'DFAELL' => "20260308", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '872558.64', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20260308",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 64,
+                    'DFAELL' => "20260608", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20260608",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 65,
+                    'DFAELL' => "20260608", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '824083.16', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20260608",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 66,
+                    'DFAELL' => "20260908", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20260908",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 67,
+                    'DFAELL' => "20260908", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '775607.68', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20260908",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 68,
+                    'DFAELL' => "20261208", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20261208",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 69,
+                    'DFAELL' => "20261208", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '727132.20', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20261208",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 70,
+                    'DFAELL' => "20270308", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20270308",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 71,
+                    'DFAELL' => "20270308", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '678656.72', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20270308",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 72,
+                    'DFAELL' => "20270608", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20270608",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 73,
+                    'DFAELL' => "20270608", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '630181.24', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20270608",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 74,
+                    'DFAELL' => "20270908", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20270908",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 75,
+                    'DFAELL' => "20270908", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '581705.76', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20270908",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 76,
+                    'DFAELL' => "20271208", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20271208",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 77,
+                    'DFAELL' => "20271208", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '533230.28', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20271208",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 78,
+                    'DFAELL' => "20280308", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20280308",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 79,
+                    'DFAELL' => "20280308", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '484754.80', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20280308",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 80,
+                    'DFAELL' => "20280608", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20280608",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 81,
+                    'DFAELL' => "20280608", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '436279.32', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20280608",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 82,
+                    'DFAELL' => "20280908", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20280908",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 83,
+                    'DFAELL' => "20280908", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '387803.84', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20280908",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 84,
+                    'DFAELL' => "20281208", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20281208",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 85,
+                    'DFAELL' => "20281208", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '339328.36', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20281208",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 86,
+                    'DFAELL' => "20290308", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20290308",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 87,
+                    'DFAELL' => "20290308", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '290852.88', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20290308",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 88,
+                    'DFAELL' => "20290608", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20290608",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 89,
+                    'DFAELL' => "20290608", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '242377.40', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20290608",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 90,
+                    'DFAELL' => "20290908", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20290908",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 91,
+                    'DFAELL' => "20290908", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '193901.92', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20290908",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 92,
+                    'DFAELL' => "20291208", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20291208",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 93,
+                    'DFAELL' => "20291208", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '145426.44', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20291208",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 94,
+                    'DFAELL' => "20300308", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.52', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20300308",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 95,
+                    'DFAELL' => "20300308", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '96950.96', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "20300308",
+                    "INT_VALUE" => "0.0000000", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 96,
+                    'DFAELL' => "20300608", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1130", //CONCEPTO
+                    "BZBETR" => '2134073.55', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => "",
+                    "INT_VALUE" => "", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ],
+                [
+                    'ID' => 97,
+                    'DFAELL' => "20300608", //FECHA TRANSACCIÓN (DESEMBOLSO, PAGO INTERES O CAPITAL)
+                    "SFHAZBA" => "1201", //CONCEPTO
+                    "BZBETR" => '48475.48', //DEP. DEL SFHAZBA, SE SABE SI ES AMORTIZACIÓN A CAPITAL O INTERES
+                    "IRA_DATE" => '', //NO TIENE FECHA EN LA TABLA DE INTERES "",
+                    "INT_VALUE" => "", //TASA REFERENCIA
+                    "TOTAL_SERVICIO_DEUDA" => "",
+                    "SALDO_DEUDA" => ""
+                ]
+            ]
+
+
+        ]

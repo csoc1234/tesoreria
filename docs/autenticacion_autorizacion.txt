@@ -1,0 +1,21 @@
+https://www.codeandtuts.com/laravel-6-crud-tutorial/
+
+autenticación manual
+https://www.tutorialspoint.com/laravel/laravel_authentication.htm
+https://medikre.com/stories/manually-authenticating-users-laravel
+
+https://www.techiediaries.com/laravel-8-authentication/
+
+https://www.itsolutionstuff.com/post/how-to-use-laravel-6-authorization-using-gatesexample.html
+
+Middleware
+https://styde.net/roles-y-permisos-con-spatie-laravel-permission/
+
+spite
+https://www.youtube.com/watch?v=r5Zs9CGB754
+https://spatie.be/docs/laravel-permission/v4/best-practices/roles-vs-permissions
+
+Autirizaci[on
+https://styde.net/laravel-6-doc-autorizacion/
+
+https://www.youtube.com/watch?v=kT-eMPudaxU

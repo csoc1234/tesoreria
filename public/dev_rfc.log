@@ -1,0 +1,169 @@
+
+**** Log file opened at 2022-09-08 09:44:51.791354 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 10, Compiled on Jun 12 2022 19:03:14
+ CPIC library: 753.2021.05.10 version 3, NI library: 40, Kernel Release: 753 Patch Level 1021
+ Current working directory: /var/www/html/pruebastic/public, Program: apache2
+ Hardware: AMD/Intel x86_64 with Linux x86_64, Operating_system: Linux 4.4.0-174-generic
+ Hostname: grupodev2, IP address: 172.16.2.156, IPv6 address: fe80::4001:acff:fe10:29c
+
+2022-09-08 09:44:51.791427 [140654898763648] >> Info entry
+	Did not find config file /var/www/html/pruebastic/public/sapnwrfc.ini.
+
+**** Log file opened at 2022-09-22 09:00:20.736760 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 10, Compiled on Jun 12 2022 19:03:14
+ CPIC library: 753.2021.05.10 version 3, NI library: 40, Kernel Release: 753 Patch Level 1021
+ Current working directory: /var/www/html/pruebastic/proyecto/public, Program: apache2
+ Hardware: AMD/Intel x86_64 with Linux x86_64, Operating_system: Linux 4.4.0-174-generic
+ Hostname: grupodev2, IP address: 172.16.2.156, IPv6 address: fe80::4001:acff:fe10:29c
+
+2022-09-22 09:00:20.736854 [139912575301504] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 229
+2022-09-22 09:00:20.738336 [139912575301504] >> Error entry
+	[Handle: 94644096669120	ConvID: 70081687	Target: sapqa-ci	SysID: VAQ	SysNr: 00	User: HVALENCI	Mandant: 710	Language: 	Codepage: 4103]
+	RfcABAPMessageException: Key: , Code: RFC_ABAP_MESSAGE, Message: Usuario bloqueado -> Informar al responsable.
+
+**** Log file opened at 2022-09-22 09:01:12.456051 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 10, Compiled on Jun 12 2022 19:03:14
+ CPIC library: 753.2021.05.10 version 3, NI library: 40, Kernel Release: 753 Patch Level 1021
+ Current working directory: /var/www/html/pruebastic/proyecto/public, Program: apache2
+ Hardware: AMD/Intel x86_64 with Linux x86_64, Operating_system: Linux 4.4.0-174-generic
+ Hostname: grupodev2, IP address: 172.16.2.156, IPv6 address: fe80::4001:acff:fe10:29c
+
+2022-09-22 09:01:12.456099 [139912575301504] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 229
+2022-09-22 09:01:12.456429 [139912575301504] >> Error entry
+	[Handle: 94644096657952	ConvID: 70134426	Target: sapqa-ci	SysID: VAQ	SysNr: 00	User: HVALENCI	Mandant: 710	Language: 	Codepage: 4103]
+	RfcABAPMessageException: Key: , Code: RFC_ABAP_MESSAGE, Message: Usuario bloqueado -> Informar al responsable.
+
+**** Log file opened at 2022-09-22 09:01:58.020310 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 10, Compiled on Jun 12 2022 19:03:14
+ CPIC library: 753.2021.05.10 version 3, NI library: 40, Kernel Release: 753 Patch Level 1021
+ Current working directory: /var/www/html/pruebastic/proyecto/public, Program: apache2
+ Hardware: AMD/Intel x86_64 with Linux x86_64, Operating_system: Linux 4.4.0-174-generic
+ Hostname: grupodev2, IP address: 172.16.2.156, IPv6 address: fe80::4001:acff:fe10:29c
+
+2022-09-22 09:01:58.020356 [139912575301504] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 229
+2022-09-22 09:01:58.020636 [139912575301504] >> Error entry
+	[Handle: 94644096656800	ConvID: 70180988	Target: sapqa-ci	SysID: VAQ	SysNr: 00	User: HVALENCI	Mandant: 710	Language: 	Codepage: 4103]
+	RfcABAPMessageException: Key: , Code: RFC_ABAP_MESSAGE, Message: Usuario bloqueado -> Informar al responsable.
+2022-09-22 09:02:34.824489 [139912575301504] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 229
+2022-09-22 09:02:34.824617 [139912575301504] >> Error entry
+	[Handle: 94644096891120	ConvID: 70218808	Target: sapqa-ci	SysID: VAQ	SysNr: 00	User: HVALENCI	Mandant: 710	Language: 	Codepage: 4103]
+	RfcABAPMessageException: Key: , Code: RFC_ABAP_MESSAGE, Message: Usuario bloqueado -> Informar al responsable.
+
+**** Log file opened at 2022-09-22 09:08:18.949020 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 10, Compiled on Jun 12 2022 19:03:14
+ CPIC library: 753.2021.05.10 version 3, NI library: 40, Kernel Release: 753 Patch Level 1021
+ Current working directory: /var/www/html/pruebastic/proyecto/public, Program: apache2
+ Hardware: AMD/Intel x86_64 with Linux x86_64, Operating_system: Linux 4.4.0-174-generic
+ Hostname: grupodev2, IP address: 172.16.2.156, IPv6 address: fe80::4001:acff:fe10:29c
+
+2022-09-22 09:08:18.949079 [139912575301504] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 229
+2022-09-22 09:08:18.949329 [139912575301504] >> Error entry
+	[Handle: 94644096674976	ConvID: 70563919	Target: sapqa-ci	SysID: VAQ	SysNr: 00	User: HVALENCI	Mandant: 710	Language: 	Codepage: 4103]
+	RfcABAPMessageException: Key: , Code: RFC_ABAP_MESSAGE, Message: Usuario bloqueado -> Informar al responsable.
+
+**** Log file opened at 2022-09-22 09:12:16.441109 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 10, Compiled on Jun 12 2022 19:03:14
+ CPIC library: 753.2021.05.10 version 3, NI library: 40, Kernel Release: 753 Patch Level 1021
+ Current working directory: /var/www/html/pruebastic/proyecto/public, Program: apache2
+ Hardware: AMD/Intel x86_64 with Linux x86_64, Operating_system: Linux 4.4.0-174-generic
+ Hostname: grupodev2, IP address: 172.16.2.156, IPv6 address: fe80::4001:acff:fe10:29c
+
+2022-09-22 09:12:16.441159 [139912575301504] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 229
+2022-09-22 09:12:16.441424 [139912575301504] >> Error entry
+	[Handle: 94644096646912	ConvID: 70802382	Target: sapqa-ci	SysID: VAQ	SysNr: 00	User: HVALENCI	Mandant: 710	Language: 	Codepage: 4103]
+	RfcABAPMessageException: Key: , Code: RFC_ABAP_MESSAGE, Message: Usuario bloqueado -> Informar al responsable.
+
+**** Log file opened at 2022-09-22 09:12:26.505198 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 10, Compiled on Jun 12 2022 19:03:14
+ CPIC library: 753.2021.05.10 version 3, NI library: 40, Kernel Release: 753 Patch Level 1021
+ Current working directory: /var/www/html/pruebastic/proyecto/public, Program: apache2
+ Hardware: AMD/Intel x86_64 with Linux x86_64, Operating_system: Linux 4.4.0-174-generic
+ Hostname: grupodev2, IP address: 172.16.2.156, IPv6 address: fe80::4001:acff:fe10:29c
+
+2022-09-22 09:12:26.505245 [139912575301504] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 229
+2022-09-22 09:12:26.505498 [139912575301504] >> Error entry
+	[Handle: 94644096655440	ConvID: 70813470	Target: sapqa-ci	SysID: VAQ	SysNr: 00	User: HVALENCI	Mandant: 710	Language: 	Codepage: 4103]
+	RfcABAPMessageException: Key: , Code: RFC_ABAP_MESSAGE, Message: Usuario bloqueado -> Informar al responsable.
+2022-09-22 09:13:36.653483 [139912575301504] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 229
+2022-09-22 09:13:36.653624 [139912575301504] >> Error entry
+	[Handle: 94644096878752	ConvID: 70884637	Target: sapqa-ci	SysID: VAQ	SysNr: 00	User: HVALENCI	Mandant: 710	Language: 	Codepage: 4103]
+	RfcABAPMessageException: Key: , Code: RFC_ABAP_MESSAGE, Message: Usuario bloqueado -> Informar al responsable.
+2022-09-22 09:13:51.974362 [139912575301504] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 229
+2022-09-22 09:13:51.974487 [139912575301504] >> Error entry
+	[Handle: 94644096669088	ConvID: 70900959	Target: sapqa-ci	SysID: VAQ	SysNr: 00	User: HVALENCI	Mandant: 710	Language: 	Codepage: 4103]
+	RfcABAPMessageException: Key: , Code: RFC_ABAP_MESSAGE, Message: Usuario bloqueado -> Informar al responsable.
+2022-09-22 09:15:21.290159 [139912575301504] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 229
+2022-09-22 09:15:21.290301 [139912575301504] >> Error entry
+	[Handle: 94644096669088	ConvID: 70992273	Target: sapqa-ci	SysID: VAQ	SysNr: 00	User: HVALENCI	Mandant: 710	Language: 	Codepage: 4103]
+	RfcABAPMessageException: Key: , Code: RFC_ABAP_MESSAGE, Message: Usuario bloqueado -> Informar al responsable.
+
+**** Log file opened at 2022-09-22 09:15:54.471346 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 10, Compiled on Jun 12 2022 19:03:14
+ CPIC library: 753.2021.05.10 version 3, NI library: 40, Kernel Release: 753 Patch Level 1021
+ Current working directory: /var/www/html/pruebastic/proyecto/public, Program: apache2
+ Hardware: AMD/Intel x86_64 with Linux x86_64, Operating_system: Linux 4.4.0-174-generic
+ Hostname: grupodev2, IP address: 172.16.2.156, IPv6 address: fe80::4001:acff:fe10:29c
+
+2022-09-22 09:15:54.471406 [139912575301504] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 229
+2022-09-22 09:15:54.471674 [139912575301504] >> Error entry
+	[Handle: 94644096792736	ConvID: 71026442	Target: sapqa-ci	SysID: VAQ	SysNr: 00	User: HVALENCI	Mandant: 710	Language: 	Codepage: 4103]
+	RfcABAPMessageException: Key: , Code: RFC_ABAP_MESSAGE, Message: Usuario bloqueado -> Informar al responsable.
+
+**** Log file opened at 2022-09-22 09:15:58.224061 UTC-05:00 (GMT), Encoding UTF-8
+NW RFC Library: SDK variant, Release 750 Patch Level 10, Compiled on Jun 12 2022 19:03:14
+ CPIC library: 753.2021.05.10 version 3, NI library: 40, Kernel Release: 753 Patch Level 1021
+ Current working directory: /var/www/html/pruebastic/proyecto/public, Program: apache2
+ Hardware: AMD/Intel x86_64 with Linux x86_64, Operating_system: Linux 4.4.0-174-generic
+ Hostname: grupodev2, IP address: 172.16.2.156, IPv6 address: fe80::4001:acff:fe10:29c
+
+2022-09-22 09:15:58.224106 [139912575301504] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 229
+2022-09-22 09:15:58.224383 [139912575301504] >> Error entry
+	[Handle: 94644096664512	ConvID: 71031195	Target: sapqa-ci	SysID: VAQ	SysNr: 00	User: HVALENCI	Mandant: 710	Language: 	Codepage: 4103]
+	RfcABAPMessageException: Key: , Code: RFC_ABAP_MESSAGE, Message: Usuario bloqueado -> Informar al responsable.
+2022-09-22 09:16:05.229493 [139912575301504] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 229
+2022-09-22 09:16:05.229612 [139912575301504] >> Error entry
+	[Handle: 94644096820080	ConvID: 71040213	Target: sapqa-ci	SysID: VAQ	SysNr: 00	User: HVALENCI	Mandant: 710	Language: 	Codepage: 4103]
+	RfcABAPMessageException: Key: , Code: RFC_ABAP_MESSAGE, Message: Usuario bloqueado -> Informar al responsable.
+2022-09-22 09:16:13.121636 [139912575301504] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 229
+2022-09-22 09:16:13.121759 [139912575301504] >> Error entry
+	[Handle: 94644096901440	ConvID: 71049105	Target: sapqa-ci	SysID: VAQ	SysNr: 00	User: HVALENCI	Mandant: 710	Language: 	Codepage: 4103]
+	RfcABAPMessageException: Key: , Code: RFC_ABAP_MESSAGE, Message: Usuario bloqueado -> Informar al responsable.
+2022-09-22 09:17:26.422804 [139912575301504] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 229
+2022-09-22 09:17:26.422943 [139912575301504] >> Error entry
+	[Handle: 94644096669088	ConvID: 71123407	Target: sapqa-ci	SysID: VAQ	SysNr: 00	User: HVALENCI	Mandant: 710	Language: 	Codepage: 4103]
+	RfcABAPMessageException: Key: , Code: RFC_ABAP_MESSAGE, Message: Usuario bloqueado -> Informar al responsable.
+2022-09-22 09:17:27.104986 [139912575301504] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 229
+2022-09-22 09:17:27.105173 [139912575301504] >> Error entry
+	[Handle: 94644096688720	ConvID: 71125090	Target: sapqa-ci	SysID: VAQ	SysNr: 00	User: HVALENCI	Mandant: 710	Language: 	Codepage: 4103]
+	RfcABAPMessageException: Key: , Code: RFC_ABAP_MESSAGE, Message: Usuario bloqueado -> Informar al responsable.
+2022-09-22 09:17:45.574507 [139912575301504] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 229
+2022-09-22 09:17:45.574646 [139912575301504] >> Error entry
+	[Handle: 94644096655136	ConvID: 71144559	Target: sapqa-ci	SysID: VAQ	SysNr: 00	User: HVALENCI	Mandant: 710	Language: 	Codepage: 4103]
+	RfcABAPMessageException: Key: , Code: RFC_ABAP_MESSAGE, Message: Usuario bloqueado -> Informar al responsable.
+2022-09-22 09:29:46.087307 [139912575301504] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 229
+2022-09-22 09:29:46.087523 [139912575301504] >> Error entry
+	[Handle: 94644096688720	ConvID: 71868064	Target: sapqa-ci	SysID: VAQ	SysNr: 00	User: HVALENCI	Mandant: 710	Language: 	Codepage: 4103]
+	RfcABAPMessageException: Key: , Code: RFC_ABAP_MESSAGE, Message: Usuario bloqueado -> Informar al responsable.
+2022-09-22 09:35:13.642179 [139912575301504] >> Error entry
+	Error in receive: 18, no SAP ErrInfo available, 229
+2022-09-22 09:35:13.642337 [139912575301504] >> Error entry
+	[Handle: 94644096897312	ConvID: 72196627	Target: sapqa-ci	SysID: VAQ	SysNr: 00	User: HVALENCI	Mandant: 710	Language: 	Codepage: 4103]
+	RfcABAPMessageException: Key: , Code: RFC_ABAP_MESSAGE, Message: Usuario bloqueado -> Informar al responsable.

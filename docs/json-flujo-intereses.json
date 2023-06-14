@@ -1,0 +1,401 @@
+{
+  "DBLFZ": "20171207",
+  "DELFZ": "20321207",
+  "KONTRH": "BOCCIDENTE",
+  "desembolsos": [
+    {
+      "RFHA": "611516840-I",
+      "DBLFZ": "20180201",
+      "DELFZ": "20300201",
+      "TPINTREF1": "IBR 3M",
+      "TPINTREF2": 49.500.000,
+      "BBLFZ": 84000000.00,
+	 "flujo": [
+        {
+          "DFAELL": "20180201",
+          "SFHAZBA": "1105",
+          "BZBETR": 84000000.00
+	   },
+        {
+          "DFAELL": "20180501",
+          "SFHAZBA": "1201",
+          "BZBETR": 1951530.00
+	   },
+        {
+          "DFAELL": "20180801",
+          "SFHAZBA": "1201",
+          "BZBETR": 1893780.00
+	   },
+        {
+          "DFAELL": "20181101",
+          "SFHAZBA": "1201",
+          "BZBETR": 1905330.00
+	   },
+        {
+          "DFAELL": "20190201",
+          "SFHAZBA": "1201",
+          "BZBETR": 1912680.00
+	   },
+        {
+          "DFAELL": "20190501",
+          "SFHAZBA": "1201",
+          "BZBETR": 1907220.00
+	   },
+        {
+          "DFAELL": "20190801",
+          "SFHAZBA": "1201",
+          "BZBETR": 1907850.00
+	   },
+        {
+          "DFAELL": "20191101",
+          "SFHAZBA": "1201",
+          "BZBETR": 1903230.00
+	   },
+        {
+          "DFAELL": "20200201",
+          "SFHAZBA": "1201",
+          "BZBETR": 1908690.00
+	   },
+        {
+          "DFAELL": "20200501",
+          "SFHAZBA": "1130",
+          "BZBETR": 0.01
+	   },
+        {
+          "DFAELL": "20201101",
+          "SFHAZBA": "1201",
+          "BZBETR": 0.00
+	   },
+        {
+          "DFAELL": "20201101",
+          "SFHAZBA": "1210",
+          "BZBETR": 482432.48
+	   },
+        {
+          "DFAELL": "20201101",
+          "SFHAZBA": "1130",
+          "BZBETR": 2210526.32
+	   },
+        {
+          "DFAELL": "20201101",
+          "SFHAZBA": "1201",
+          "BZBETR": 1480920.00
+	   },
+        {
+          "DFAELL": "20210201",
+          "SFHAZBA": "1210",
+          "BZBETR": 482432.47
+	   },
+        {
+          "DFAELL": "20210201",
+          "SFHAZBA": "1130",
+          "BZBETR": 2210526.32
+	   },
+        {
+          "DFAELL": "20210201",
+          "SFHAZBA": "1201",
+          "BZBETR": 1356682.89
+	   },
+        {
+          "DFAELL": "20210501",
+          "SFHAZBA": "1210",
+          "BZBETR": 482432.47
+	   },
+        {
+          "DFAELL": "20210501",
+          "SFHAZBA": "1201",
+          "BZBETR": 1314843.16
+	   },
+        {
+          "DFAELL": "20210501",
+          "SFHAZBA": "1130",
+          "BZBETR": 2210526.31
+	   },
+        {
+          "DFAELL": "20210801",
+          "SFHAZBA": "1210",
+          "BZBETR": 326047.58
+	   },
+        {
+          "DFAELL": "20210801",
+          "SFHAZBA": "1201",
+          "BZBETR": 1287603.95
+	   },
+        {
+          "DFAELL": "20210801",
+          "SFHAZBA": "1130",
+          "BZBETR": 2210526.31
+	   },
+        {
+          "DFAELL": "20211101",
+          "SFHAZBA": "1210",
+          "BZBETR": 443336.25
+	   },
+        {
+          "DFAELL": "20211101",
+          "SFHAZBA": "1130",
+          "BZBETR": 2210526.31
+	   },
+        {
+          "DFAELL": "20211101",
+          "SFHAZBA": "1130",
+          "BZBETR": 2210526.31
+	   },
+        {
+          "DFAELL": "20220201",
+          "SFHAZBA": "1210",
+          "BZBETR": 443336.25
+	   },
+        {
+          "DFAELL": "20220201",
+          "SFHAZBA": "1130",
+          "BZBETR": 2210526.32
+	   },
+        {
+          "DFAELL": "20220201",
+          "SFHAZBA": "1201",
+          "BZBETR": 1381076.05
+	   },
+        {
+          "DFAELL": "20220501",
+          "SFHAZBA": "1210",
+          "BZBETR": 443336.25
+	   },
+        {
+          "DFAELL": "20220501",
+          "SFHAZBA": "1130",
+          "BZBETR": 2210526.32
+	   },
+        {
+          "DFAELL": "20220501",
+          "SFHAZBA": "1201",
+          "BZBETR": 1548960.00
+	   },
+        {
+          "DFAELL": "20220801",
+          "SFHAZBA": "1210",
+          "BZBETR": 443336.25
+	   },
+        {
+          "DFAELL": "20220801",
+          "SFHAZBA": "1130",
+          "BZBETR": 2210526.32
+	   },
+        {
+          "DFAELL": "20220801",
+          "SFHAZBA": "1201",
+          "BZBETR": 1500555.00
+	   },
+        {
+          "DFAELL": "20221101",
+          "SFHAZBA": "1130",
+          "BZBETR": 2210526.32
+	   },
+        {
+          "DFAELL": "20221101",
+          "SFHAZBA": "1201",
+          "BZBETR": 1452150.00
+	   },
+        {
+          "DFAELL": "20230201",
+          "SFHAZBA": "1130",
+          "BZBETR": 2210526.32
+	   },
+        {
+          "DFAELL": "20230201",
+          "SFHAZBA": "1201",
+          "BZBETR": 1403745.00
+	   },
+      ],
+      "intereses": [
+        {
+          "IRA_DATE": "20180201",
+          "INT_VALUE": 43.430.000
+	   },
+        {
+          "IRA_DATE": "20180501",
+          "INT_VALUE": 40.680.000
+	   },
+        {
+          "IRA_DATE": "20180801",
+          "INT_VALUE": 41.230.000
+	   },
+        {
+          "IRA_DATE": "20181101",
+          "INT_VALUE": 41.570.000
+	   },
+        {
+          "IRA_DATE": "20181101",
+          "INT_VALUE": 40.680.000
+	   },
+        {
+          "IRA_DATE": "20190201",
+          "INT_VALUE": 41.320.000
+	   },
+        {
+          "IRA_DATE": "20190501",
+          "INT_VALUE": 41.350.000
+	   },
+        {
+          "IRA_DATE": "20190801",
+          "INT_VALUE": 41.130.000
+	   },
+        {
+          "IRA_DATE": "20191101",
+          "INT_VALUE": 41.390.000
+	   },
+        {
+          "IRA_DATE": "20200801",
+          "INT_VALUE": 21.020.000
+	   },
+        {
+          "IRA_DATE": "20201101",
+          "INT_VALUE": 16.850.000
+	   },
+        {
+          "IRA_DATE": "20210201",
+          "INT_VALUE": 16.590.000
+	   },
+        {
+          "IRA_DATE": "20210501",
+          "INT_VALUE": 17.070.000
+	   },
+        {
+          "IRA_DATE": "20210801",
+          "INT_VALUE": 18.200.000
+	   },
+        {
+          "IRA_DATE": "20211101",
+          "INT_VALUE": 0.0000000
+	   },
+        {
+          "IRA_DATE": "20220201",
+          "INT_VALUE": 0.0000000
+	   },
+        {
+          "IRA_DATE": "20220501",
+          "INT_VALUE": 0.0000000
+	   },
+        {
+          "IRA_DATE": "20220801",
+          "INT_VALUE": 0.0000000
+	   },
+        {
+          "IRA_DATE": "20221101",
+          "INT_VALUE": 0.0000000
+	   },
+        {
+          "IRA_DATE": "20230201",
+          "INT_VALUE": 0.0000000
+	   },
+        {
+          "IRA_DATE": "20230501",
+          "INT_VALUE": 0.0000000
+	   },
+        {
+          "IRA_DATE": "20230801",
+          "INT_VALUE": 0.0000000
+	   },
+        {
+          "IRA_DATE": "20231101",
+          "INT_VALUE": 0.0000000
+	   },
+        {
+          "IRA_DATE": "20240201",
+          "INT_VALUE": 0.0000000
+	   },
+        {
+          "IRA_DATE": "20240501",
+          "INT_VALUE": 0.0000000
+	   },
+        {
+          "IRA_DATE": "20240801",
+          "INT_VALUE": 0.0000000
+	   },
+        {
+          "IRA_DATE": "20241101",
+          "INT_VALUE": 0.0000000
+	   },
+        {
+          "IRA_DATE": "20250201",
+          "INT_VALUE": 0.0000000
+	   },
+        {
+          "IRA_DATE": "20250501",
+          "INT_VALUE": 0.0000000
+	   },
+        {
+          "IRA_DATE": "20250801",
+          "INT_VALUE": 0.0000000
+	   },
+        {
+          "IRA_DATE": "20251101",
+          "INT_VALUE": 0.0000000
+	   },
+        {
+          "IRA_DATE": "20260201",
+          "INT_VALUE": 0.0000000
+	   },
+        {
+          "IRA_DATE": "20260501",
+          "INT_VALUE": 0.0000000
+	   },
+        {
+          "IRA_DATE": "20260801",
+          "INT_VALUE": 0.0000000
+	   },
+        {
+          "IRA_DATE": "20261101",
+          "INT_VALUE": 0.0000000
+	   },
+        {
+          "IRA_DATE": "20270201",
+          "INT_VALUE": 0.0000000
+	   },
+        {
+          "IRA_DATE": "20270501",
+          "INT_VALUE": 0.0000000
+	   },
+        {
+          "IRA_DATE": "20270801",
+          "INT_VALUE": 0.0000000
+	   },
+        {
+          "IRA_DATE": "20271101",
+          "INT_VALUE": 0.0000000
+	   },
+        {
+          "IRA_DATE": "20280201",
+          "INT_VALUE": 0.0000000
+	   },
+        {
+          "IRA_DATE": "20280501",
+          "INT_VALUE": 0.0000000
+	   },
+        {
+          "IRA_DATE": "20280801",
+          "INT_VALUE": 0.0000000
+	   },
+        {
+          "IRA_DATE": "20281101",
+          "INT_VALUE": 0.0000000
+	   },
+        {
+          "IRA_DATE": "20290201",
+          "INT_VALUE": 0.0000000
+	   },
+        {
+          "IRA_DATE": "20290501",
+          "INT_VALUE": 0.0000000
+	   },
+        {
+          "IRA_DATE": "20290801",
+          "INT_VALUE": 0.0000000
+	   },
+        {
+          "IRA_DATE": "20291101",
+          "INT_VALUE": 0.0000000
+	   },
+     },
+  ]  
+}
